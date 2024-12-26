@@ -1,1 +1,1 @@
-https://files.realpython.com/media/Building-a-Python-Calculator-With-PyQt_Watermarked.e4c1a5cf2018.jpg
+https://www.google.com/url?sa=i&url=https%3A%2F%2Frealpython.com%2Ftutorials%2Fprojects%2F&psig=AOvVaw0xW9gkwF6qesKuWLAkYPPs&ust=1735331265208000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjOl_aixooDFQAAAAAdAAAAABAK
