@@ -1,0 +1,13 @@
+def calculate_love_score(name1, name2):
+        combined_names = (name1 + name2).lower().replace(" ", "")
+
+        true_count = sum(combined_names.count(char) for char in "true")
+
+        love_count = sum(combined_names.count(char) for char in "love")
+
+        love_score = str(true_count) + str(love_count)
+        return love_score
+#print(calculate_love_score("gamze", "aslan"))
+name1 = input("name1 : ")
+name2 = input("name2 : ")
+print(calculate_love_score(name1, name2))
