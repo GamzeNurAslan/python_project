@@ -75,4 +75,6 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") ==  "y
     print("\n" * 50)
     play_game()
 
+"""The reason why the other person only turns over their first card is because of the game requirements."""
+
 
