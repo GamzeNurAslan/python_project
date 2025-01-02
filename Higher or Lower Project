@@ -9,8 +9,8 @@ def format_data(account):
     account_capital_city = account["capital_city"]
     return f"{account_name} , {account_descrp} , {account_capital_city}"
 
-def check_answer(user_guess,a_followers,b_followers):
-    if a_followers > b_followers:
+def check_answer(user_guess,a_density,b_density):
+    if a_density > b_density:
         return user_guess == "a"
     else:
         return user_guess == "b"
@@ -38,10 +38,10 @@ while game_should_continue:
     print(logo)
 
 
-    a_follower_count = account_a["population"]
-    b_follower_count = account_b["population"]
+    a_human_density = account_a["population"]
+    b_human_density = account_b["population"]
 
-    is_correct = check_answer(guess, a_follower_count, b_follower_count)
+    is_correct = check_answer(guess, a_human_density, b_human_density)
 
     if is_correct:
         score += 1
