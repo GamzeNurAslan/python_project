@@ -1,0 +1,238 @@
+import random
+from art import logo
+from art import vs
+from game_data_2 import data
+
+def format_data(account):
+    account_name = account["name"]
+    account_descrp = account["description"]
+    account_capital_city = account["capital_city"]
+    return f"{account_name} , {account_descrp} , {account_capital_city}"
+
+def check_answer(user_guess,a_followers,b_followers):
+    if a_followers > b_followers:
+        return user_guess == "a"
+    else:
+        return user_guess == "b"
+
+print(logo)
+score = 0
+game_should_continue = True
+account_b = random.choice(data)
+
+while game_should_continue:
+
+    account_a = account_b
+    account_b = random.choice(data)
+
+    if account_a == account_b:
+        account_b = random.choice(data)
+
+    print(f"Compare A: {format_data(account_a)}.")
+    print(vs)
+    print(f"Against B: {format_data(account_b)}.")
+
+    guess = input("Who has more followers? Type 'A' or 'B': ").lower()
+
+    print("\n" * 20)
+    print(logo)
+
+
+    a_follower_count = account_a["population"]
+    b_follower_count = account_b["population"]
+
+    is_correct = check_answer(guess, a_follower_count, b_follower_count)
+
+    if is_correct:
+        score += 1
+        print(f"You're right! Current score {score}")
+    else:
+        print(f"Sorry, that's wrong. Final score: {score}.")
+        game_should_continue = False
+
+#-----------------------------------------------------------------------------------#
+#game_data_2.py
+
+data = [
+    {
+      'name' : 'Turkey',
+      'population' : 88_844_934,
+      'description' : 'country',
+      'capital_city' : 'Ankara'
+    },
+    {
+      'name' : 'Azerbaijan',
+      'population' : 10_135_373,
+      'description' : 'country',
+      'capital_city' : 'Bakü'
+    },
+    {
+      'name' : 'ABD',
+      'population' : 336_981_386,
+      'description' : 'country',
+      'capital_city' : 'Washington, D.C.'
+    },
+    {
+      'name' : 'Russia',
+      'population' : 146_150_789,
+      'description' : 'country',
+      'capital_city' : 'Moskova'
+    },
+    {
+      'name' : 'Germany',
+      'population' : 84_607_016,
+      'description' : 'country',
+      'capital_city' : 'Berlin'
+    },
+    {
+      'name' : 'Belgium',
+      'population' : 11_808_859,
+      'description' : 'country',
+      'capital_city' : 'Brüksel'
+    },
+    {
+      'name' : 'Greece',
+      'population' : 10_482_487,
+      'description' : 'country',
+      'capital_city' : 'Atina'
+    },
+    {
+      'name' : 'Italy',
+      'population' : 58_919_345,
+      'description' : 'country',
+      'capital_city' : 'Roma'
+    },
+    {
+      'name' : 'Japan',
+      'population' : 123_850_000,
+      'description' : 'country',
+      'capital_city' : 'Tokyo'
+    },
+    {
+      'name' : 'Chinese',
+      'population' : 1_409_670_000,
+      'description' : 'country',
+      'capital_city' : 'Pekin'
+    },
+    {
+      'name' : 'England',
+      'population' : 67_026_292,
+      'description' : 'country',
+      'capital_city' : 'Londra'
+    },
+    {
+      'name' : 'India',
+      'population' : 1_427_097_903,
+      'description' : 'country',
+      'capital_city' : 'Yeni Delhi'
+    },
+    {
+      'name' : 'Canada',
+      'population' : 41_012_563,
+      'description' : 'country',
+      'capital_city' : 'Ottava'
+    },
+    {
+      'name' : 'Holland',
+      'population' : 17_947_684,
+      'description' : 'country',
+      'capital_city' : 'Amsterdam'
+    },
+    {
+      'name' : 'Kazakhstan',
+      'population' : 20_033_546,
+      'description' : 'country',
+      'capital_city' : 'Astana'
+    },
+    {
+      'name' : 'South Korea',
+      'population' : 51_439_038,
+      'description' : 'country',
+      'capital_city' : 'Seul'
+    },
+    {
+      'name' : 'Norway',
+      'population' : 5_514_042,
+      'description' : 'country',
+      'capital_city' : 'Oslo'
+    },
+    {
+      'name' : 'Portugal',
+      'population' : 10_467_366,
+      'description' : 'country',
+      'capital_city' : 'Lizbon'
+    },
+    {
+      'name' : 'Switzerland',
+      'population' : 8_865_270,
+      'description' : 'country',
+      'capital_city' : 'Bern'
+    },
+    {
+      'name' : 'Ireland',
+      'population' : 5_123_536,
+      'description' : 'country',
+      'capital_city' : 'Dublin'
+    },
+    {
+      'name' : 'Bulgaria',
+      'population' : 6_447_710,
+      'description' : 'country',
+      'capital_city' : 'Sofya'
+    },
+    {
+      'name' : 'Denmark',
+      'population' : 5_961_249,
+      'description' : 'country',
+      'capital_city' : 'Kopenhag'
+    },
+    {
+      'name' : 'Swedish',
+      'population' : 10_545_310,
+      'description' : 'country',
+      'capital_city' : 'Stockholm'
+    },
+    {
+      'name' : 'Iranian',
+      'population' : 85_231_028,
+      'description' : 'country',
+      'capital_city' : 'Tahran'
+    },
+    {
+      'name' : 'Mexican',
+      'population' : 129_713_690,
+      'description' : 'country',
+      'capital_city' : 'Mexican'
+    },
+    {
+      'name' : 'Spain',
+      'population' : 48_345_223,
+      'description' : 'country',
+      'capital_city' : 'Madrid'
+    },
+]
+
+#-------------------------------------------------------------------------#
+
+#art.py
+
+logo = r"""
+    __  ___       __             
+   / / / (_)___ _/ /_  ___  _____
+  / /_/ / / __ `/ __ \/ _ \/ ___/
+ / __  / / /_/ / / / /  __/ /    
+/_/ ///_/\__, /_/ /_/\___/_/     
+   / /  /____/_      _____  _____
+  / /   / __ \ | /| / / _ \/ ___/
+ / /___/ /_/ / |/ |/ /  __/ /    
+/_____/\____/|__/|__/\___/_/     
+"""
+
+vs = r"""
+ _    __    
+| |  / /____
+| | / / ___/
+| |/ (__  ) 
+|___/____(_)
+"""
+
