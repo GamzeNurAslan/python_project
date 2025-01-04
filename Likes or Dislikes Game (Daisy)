@@ -1,0 +1,28 @@
+print(r'''
+**************************************************************************
+                        .'`. ,'`.
+                  .---./    u    \,---.
+               ___|    \    |    /    |___
+              \    `.   \   |   /   .'    /
+               \_    `.  \  |  /  .'    _/
+             .-' `-._  `.:::::::.'  _.-' `-.
+             \       `-;:::::::::;-'       /
+              >~------~:::::::::::~------~<
+             /      _.-;:::::::::;-._      \
+             `-._.-'   .`.::::::'.   `-._.-'
+                /    .'  /  |  \  `.    \
+               /___.'   /   |   \   `.___\
+                   |   /    |    \    |
+                   `--'\   .n.   /`---'
+                        `.'   `.'      
+''')
+print("Hoş geldiniz Seviyor_Sevmiyor'a!")
+print("En son ne çıkacak bakalım :)")
+
+cekme_1 = int(input("Yaprak sayısını gir = "))
+if cekme_1 % 2 == 0:
+    print("Seviyor ama kanma kardeşim!")
+elif cekme_1 % 2 != 0:
+    print("Senin gibi birine bakmıyormuş,boş ver")
+else:
+    print("Oyuna tekrar bak istersen :( ")
