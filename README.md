@@ -1,1 +1,1 @@
-file:///C:/Users/aslan/Downloads/Building-a-Python-Calculator-With-PyQt_Watermarked.webp
+https://files.realpython.com/media/Building-a-Python-Calculator-With-PyQt_Watermarked.e4c1a5cf2018.jpg
