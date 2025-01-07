@@ -25,12 +25,17 @@ def clear():
     tim.home()
     tim.pendown()
 
+def change_color():
+    random_color = random.choice(["red", "blue", "green", "yellow", "purple", "orange", "pink", "brown"])
+    tim.color(random_color)
+
 screen.listen()
 screen.onkey(move_forwards, "w")  #Higher Order Functions
 screen.onkey(move_backwards, "s")
 screen.onkey(turn_left, "a")
 screen.onkey(turn_right, "d")
 screen.onkey(clear, "c")
+screen.onkey(change_color, "r")
 
 screen.exitonclick()
 
