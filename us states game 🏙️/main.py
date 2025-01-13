@@ -30,3 +30,6 @@ while len(guessed_states) < 50:
         state_data = data[data.state == answer_state]
         t.goto(state_data.x.item(), state_data.y.item())
         t.write(answer_state)
+
+
+#Türkiye versiyonunu da ilerleyen zamanlarda yapacağımmm 🤩
