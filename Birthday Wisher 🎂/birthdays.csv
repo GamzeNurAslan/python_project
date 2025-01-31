@@ -1,4 +1,7 @@
 name,email,year,month,day
-Test,test@email.com,1961,12,21
+Annem,anne@email.com,1990,12,21
+Babam,baba@gmail.com,1987,8,10
+Abim,abi@gmail.com,2000,4,7
+Kardesim,kardes@gmail.com,2008,6,17
 
-#Burayı yakınlarınızın mail-ay-gün-yıl şeklinde bilgileri girilecek :)
+#Burayı yakınlarınızın mail-ay-gün-yıl şeklinde bilgileri girilecek!
