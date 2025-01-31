@@ -4,4 +4,7 @@ Kayıt olup giriş yaptıktan sonra "Files" sekmesine tıklayın.
 Sonra oradan indirecek olduğunuz dosyaları yükleyin.
 Eğer dosya halinde değil de klasör açmak isterseniz onun için de üst tarafta create directories'ten açabilirsiniz.
 Ardından "Tasks" sekmesine tıklayın ve "Scheduled tasks" kısmındaki UTC'ye göre saat-dakika ve açıklama ekleyip gönderilmesini kontrol edebilirsiniz.
+
+=> https://www.pythonanywhere.com/
+
 -------------------------------------------------------->>>>><<<<<------------------------------------------------------------------
