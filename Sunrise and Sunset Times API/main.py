@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-#Elazığ konumu :)
+#Elazığ konumu,güneşin doğuşu,batışı 
 MY_LAT = 38.674870
 MY_LONG = 39.212399
 
