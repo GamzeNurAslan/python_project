@@ -4,3 +4,5 @@ Yazdıktan sonra city name yazan yere bulunduğunuz şehri veya emin olmak için
 sonra "your api key" yazan kısıma kendi api'yınızı yazın.Ve aratın.Eğer yanlış bir girdi yazarsanız 401 hatası alacaksınızz :(
 
 
+api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}  kodda yazarken ? olan yere kadar alın ve OWM_Endpoint'e eşitleyin. 
+OWN_Endpoint => OpenWeather 
