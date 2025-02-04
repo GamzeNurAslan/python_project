@@ -1,22 +1,20 @@
-HTML Entities
-
-Web sayfalarında özel karakterlerin doğru bir şekilde gösterilmesini sağlamak amacıyla kullanılan özel kodlardır. Bazı kavramları (`<`, `>`, `&` vb.) özel anlamlarla kullanılır, bu yüzden bu karakterlerin doğru gösterilmesi için HTML entities kullanılır.
-
-Bir HTML entity genellikle `&` ile başlar ve `;` ile biter.
-
-- `<` => `<`
-- `>` => `>`
-- `'` => `'`
-- `"` => `"`
-- `&` => `&`
-- `©` => Copyright sembolü
-
-Ondalık ve Onaltılık Unicode Sayıları
-
-- `&#number;` ondalık Unicode sayısı
-- `&#xnumber;` genellikle başında sıfırlar bulunan onaltılık Unicode sayısı
-
-=> Örnek kod parçacığı;
-        q_text = html.unescape(self.current_question.text)
-        user_answer = input(f"Q.{self.question_number} : {q_text} (True/False) : ")
-        self.check_answer(user_answer)
+<h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="HTML_Entities_0"></a><strong>HTML Entities</strong></h1>
+<p class="has-line-data" data-line-start="2" data-line-end="3">Web sayfalarında özel karakterlerin doğru bir şekilde gösterilmesini sağlamak amacıyla kullanılan özel kodlardır. Bazı kavramları (<code>&lt;</code>, <code>&gt;</code>, <code>&amp;</code> vb.) özel anlamlarla kullanılır, bu yüzden bu karakterlerin doğru gösterilmesi için HTML entities kullanılır.</p>
+<p class="has-line-data" data-line-start="4" data-line-end="5"><em><em>Bir HTML entity genellikle <code>&amp;</code> ile başlar ve <code>;</code> ile biter.</em></em></p>
+<ul>
+<li class="has-line-data" data-line-start="6" data-line-end="7"><code>&lt;</code> =&gt; <code>&lt;</code></li>
+<li class="has-line-data" data-line-start="7" data-line-end="8"><code>&gt;</code> =&gt; <code>&gt;</code></li>
+<li class="has-line-data" data-line-start="8" data-line-end="9"><code>'</code> =&gt; <code>'</code></li>
+<li class="has-line-data" data-line-start="9" data-line-end="10"><code>&quot;</code> =&gt; <code>&quot;</code></li>
+<li class="has-line-data" data-line-start="10" data-line-end="11"><code>&amp;</code> =&gt; <code>&amp;</code></li>
+<li class="has-line-data" data-line-start="11" data-line-end="13"><code>©</code> =&gt; Copyright sembolü</li>
+</ul>
+<p class="has-line-data" data-line-start="13" data-line-end="14">##Ondalık ve Onaltılık Unicode Sayıları</p>
+<ul>
+<li class="has-line-data" data-line-start="15" data-line-end="16"><code>&amp;#number;</code> ondalık Unicode sayısı</li>
+<li class="has-line-data" data-line-start="16" data-line-end="18"><code>&amp;#xnumber;</code> genellikle başında sıfırlar bulunan onaltılık Unicode sayısı</li>
+</ul>
+<p class="has-line-data" data-line-start="18" data-line-end="22">=&gt; Örnek kod parçacığı;<br>
+q_text = html.unescape(self.current_question.text)<br>
+user_answer = input(f&quot;Q.{self.question_number} : {q_text} (True/False) : &quot;)<br>
+self.check_answer(user_answer)</p>
