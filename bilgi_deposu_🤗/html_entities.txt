@@ -15,3 +15,8 @@ Ondalık ve Onaltılık Unicode Sayıları
 
 - `&#number;` ondalık Unicode sayısı
 - `&#xnumber;` genellikle başında sıfırlar bulunan onaltılık Unicode sayısı
+
+=> Örnek kod parçacığı;
+        q_text = html.unescape(self.current_question.text)
+        user_answer = input(f"Q.{self.question_number} : {q_text} (True/False) : ")
+        self.check_answer(user_answer)
