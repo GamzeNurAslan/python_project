@@ -20,3 +20,5 @@ Sonra kendi numaranızı sisteme girin.Size ABD merkezli bir numara verecektir v
 
 Eğer SMS almak istemiyorsanız Twilio'yu WhatsApp'a da bağlayabilirsiniz.
 
+Son adım olarak yazdığımız kodun bulut tabanında da çalışmasını sağlamak :)
+Bunun için https://www.pythonanywhere.com/ sitesine giriyoruz ve Brithday reposunda nasıl kullanılacağını yazmıştım,oradan aynı adımlarla ilerliyoruz.Hepsi bu kadar.
