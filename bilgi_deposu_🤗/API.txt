@@ -1,0 +1,5 @@
+API Key
+API anahtarı, API geliştiricilerinin API'lerine erişimi denetlemek için kullandıkları alfasayısal bir dizedir. API, iki yazılım modülü arasında veri alışverişine izin veren bir iletişim mekanizmasıdır. Modülünüz için bir API oluşturduğunuzda, diğer uygulama geliştiricileri, işlevlerinizi kodlarına entegre etmek için API'nizi çağırabilir. Örneğin, girdi olarak ürünlerin listesini alan ve ürünleri en düşük fiyata satın alabileceğiniz mağazaların bir listesini döndüren bir modül geliştirebilirsiniz. Bir e-ticaret uygulaması daha sonra müşterileri için günlük market fırsatlarının bir listesini oluşturmak için API'nizi kullanabilir. API oluşturucusu olarak, API erişiminizi kısıtlamak ve izlemek için API anahtarlarını kullanırsınız. API anahtarı, API'lerinizi daha verimli bir şekilde koruyabilmeniz, yönetebilmeniz ve gelir kaynağına dönüştürebilmeniz için yetkili API kullanımını tanımlar.
+
+------------------------------------------------------------------------------------------------
+
