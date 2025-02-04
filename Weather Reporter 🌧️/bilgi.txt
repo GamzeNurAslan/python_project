@@ -1,0 +1,6 @@
+İlk başta https://home.openweathermap.org/users/sign_up adresinden kayıt oluşturunuz,
+oluşturduğunuz bu kayıttan sonra api call kısmından api'yı alıp google aramada kutucuğuna yazın.
+Yazdıktan sonra city name yazan yere bulunduğunuz şehri veya emin olmak için hem şehri hem de ülkeyi virgülle ayırarak yazabilirsiniz.
+sonra "your api key" yazan kısıma kendi api'yınızı yazın.Ve aratın.Eğer yanlış bir girdi yazarsanız 401 hatası alacaksınızz :(
+
+
