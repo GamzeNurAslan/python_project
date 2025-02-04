@@ -1,8 +1,17 @@
 # **HTML Entities**
-Web sayfalarında özel karakterlerin doğru bir şekilde gösterilmesini sağlamak amacıyla kullanılan özel kodlardır. Bazı kavramları (<,>,& vb.) özel anlamlarla kullanılır, bu yüzden bu karakterlerin metin olarak görünmesini sağlamak için HTML entity'leri kullanılır.
 
-Bir HTML entity genellikle & ile başlar ve ; ile biter.
-< => < > => > ' => ' < => < & => & " => " © => Copyright sembolü
+Web sayfalarında özel karakterlerin doğru bir şekilde gösterilmesini sağlamak amacıyla kullanılan özel kodlardır. Bazı kavramları (`<`, `>`, `&` vb.) özel anlamlarla kullanılır, bu yüzden bu karakterlerin doğru gösterilmesi için HTML entities kullanılır.
 
-*_&#number; ondalık Unicode sayısı_*
-*_&#xnumber; genellikle başında sıfırlar bulunan onaltılık Unicode sayısı_*
+Bir HTML entity genellikle `&` ile başlar ve `;` ile biter.
+
+- `<` => `<`
+- `>` => `>`
+- `'` => `'`
+- `"` => `"`
+- `&` => `&`
+- `©` => Copyright sembolü
+
+### Ondalık ve Onaltılık Unicode Sayıları
+
+- `&#number;` ondalık Unicode sayısı
+- `&#xnumber;` genellikle başında sıfırlar bulunan onaltılık Unicode sayısı
