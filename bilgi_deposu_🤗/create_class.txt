@@ -12,3 +12,23 @@ print(obj.param1)  # Output: value1
 print(obj.param2)  # Output: value2
 
 __init__ metodu param1 ve param2 argümanlarını alıp bunları self.param1 ve self.param2 olarak atar. Bu sayede, MyClass sınıfından oluşturulan her örnek bu değerlere sahip olur.
+
+*******************************************************************************************************************************************************************************************
+
+tkinter, Python'da grafiksel kullanıcı arayüzleri (GUI) oluşturmak için kullanılan standart bir kütüphanedir.
+tkinter ile pencereler, düğmeler, etiketler, giriş kutuları gibi çeşitli bileşenler oluşturabilir ve kullanıcı etkileşimlerini işleyebilirsiniz.
+Örnek;
+import tkinter as tk
+
+# Ana pencereyi oluştur
+root = tk.Tk()
+root.title("Tkinter Örneği **_** ")
+
+# Bir etiket oluştur ve pencereye ekle
+label = tk.Label(root, text="Merhaba, Tkinter!")
+label.pack()
+
+# Pencereyi çalıştır
+root.mainloop()
+
+*****************************************************************************************************************************************************************************************
