@@ -14,3 +14,8 @@ Peki,bu alacağımız uyarıyı SMS'e nasıl uyarlarız?
 
 Twilio API'a aşağıdaki linkten ulaşabilirsiniz => https://login.twilio.com/u/signupstate=hKFo2SB6TkRJeVhVREpjWTFuUlQ2Rk50NERfUVFqZ0dRMlJEeKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFFKbWNhY3lyLTFvaGxOenVHRnU3cXowUEc5RDVUcnQxo2NpZNkgTW05M1lTTDVSclpmNzdobUlKZFI3QktZYjZPOXV1cks
 
+Twilio bizlere deneme hakkı sunuyor fakat devamlılık sağlanacaksa free kısımdan değil de ücretli kısımı kullanmanız gerekli.Giriş kısımında birkeç soru soruyor(Hangi programlama dili için vs diye).
+Giriş yaptıktan sonra "Get a Trial Number"a tıklayın.
+Sonra kendi numaranızı sisteme girin.Size ABD merkezli bir numara verecektir ve artık numaranızı aldınız.
+
+
