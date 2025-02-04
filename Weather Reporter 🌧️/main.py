@@ -34,9 +34,9 @@ if will_rain:
 
     message = client.messages \
         .create(
-        body="It's going to rain today. Remember to bring an ☔️",
-        from_="YOUR TWILIO VIRTUAL NUMBER",
-        to="YOUR TWILIO VERIFIED REAL NUMBER"
+        body="It's going to rain today. Remember to bring an ☔️", #Mesajımız
+        from_="YOUR TWILIO VIRTUAL NUMBER", #Gönderenin telefon numarası => Twilio Dashborad'daki TRIAL NUMBER'ı buraya gir.
+        to="YOUR TWILIO VERIFIED REAL NUMBER" #Burası ise mesajın her kime gönderiliyorsa o kişinin numarası girilecek.
     )
     print(message.status)
 
