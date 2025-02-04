@@ -18,4 +18,5 @@ Twilio bizlere deneme hakkı sunuyor fakat devamlılık sağlanacaksa free kıs�
 Giriş yaptıktan sonra "Get a Trial Number"a tıklayın.
 Sonra kendi numaranızı sisteme girin.Size ABD merkezli bir numara verecektir ve artık numaranızı aldınız.
 
+Eğer SMS almak istemiyorsanız Twilio'yu WhatsApp'a da bağlayabilirsiniz.
 
