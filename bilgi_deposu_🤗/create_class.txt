@@ -29,6 +29,6 @@ label = tk.Label(root, text="Merhaba, Tkinter!")
 label.pack()
 
 # Pencereyi çalıştır
-root.mainloop()
+root.mainloop()  //while döngüsü gibi sonsuz o işlemin gerçekleşmesini sağlar.
 
 *****************************************************************************************************************************************************************************************
