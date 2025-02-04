@@ -8,3 +8,9 @@ api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}  ko
 OWN_Endpoint => OpenWeather 
 
 Aldığımız JSON kodlarını da göreceğiniz yer => https://jsonviewer.stack.hu/
+
+Peki,bu alacağımız uyarıyı SMS'e nasıl uyarlarız?
+-Bunun için de farklı bir API kullanacağız == Twilio API 
+
+Twilio API'a aşağıdaki linkten ulaşabilirsiniz => https://login.twilio.com/u/signupstate=hKFo2SB6TkRJeVhVREpjWTFuUlQ2Rk50NERfUVFqZ0dRMlJEeKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFFKbWNhY3lyLTFvaGxOenVHRnU3cXowUEc5RDVUcnQxo2NpZNkgTW05M1lTTDVSclpmNzdobUlKZFI3QktZYjZPOXV1cks
+
