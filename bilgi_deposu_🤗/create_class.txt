@@ -1,0 +1,14 @@
+Class nasıl oluşturulurdu?
+Python'da __init__ metodu, bir sınıfın örneği (instance) oluşturulduğunda otomatik olarak çağrılan özel bir metottur. Bu metod, sınıfın özelliklerini başlatmak (initialize) için kullanılır.
+
+class MyClass:
+    def __init__(self, param1, param2):
+        self.param1 = param1
+        self.param2 = param2
+
+# Örnek oluşturma
+obj = MyClass('value1', 'value2')
+print(obj.param1)  # Output: value1
+print(obj.param2)  # Output: value2
+
+__init__ metodu param1 ve param2 argümanlarını alıp bunları self.param1 ve self.param2 olarak atar. Bu sayede, MyClass sınıfından oluşturulan her örnek bu değerlere sahip olur.
