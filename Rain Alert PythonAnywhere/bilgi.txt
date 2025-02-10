@@ -1,0 +1,7 @@
+API keys herhangi bir şekilde açık bir sitede kullanırken dikkatli olmamız gerekir, yani güvenlik açısından kendimizi korumamız gerekir bu yüzden API keys için:
+1-git hesabınıza gidin.
+2-export + "değişken adı" = "API numarası"
+3-enter tuşuna bas
+4-yeni sekmeye de "env" yaz
+sonrası ise tamamen kopyala yapıştır işi ⭐️
+
