@@ -84,3 +84,4 @@ if abs(diff_percent) > 1:
         )
 
 #Belirli bir hisse senedinin (örneğin TSLA - Tesla Inc) fiyatında %5'ten fazla bir artış veya azalış olduğunda ilgili haberlerin alınmasını ve bu haberleri Twilio kullanarak telefonunuza mesaj olarak gönderilmesini sağlamak için yazıldı :)
+#https://www.twilio.com/en-us => adresinden takip
