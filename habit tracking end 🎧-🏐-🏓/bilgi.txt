@@ -1,3 +1,5 @@
 Pixela uygulaması ile alışkanlıklarınızı not alıp takip edebilirsiniz :)
 Bu kodu ide'nize yazarak gerekli bilgilerinizi girerek devam edebilirsiniz.
+Pixela adlı bir platformu kullanarak kişisel verilerinizi izlemek için bir "cycling graph" (bisiklet sürüşü grafiği) 
+oluşturmayı ve bu grafiğe veri eklemeyi sağlar bu kod. Pixela, kullanıcıların günlük aktivitelerini (örneğin, yürüyüş, koşu, bisiklet sürme) takip etmelerini sağlayan bir platformdur.
 => https://pixe.la/
