@@ -72,5 +72,3 @@ if response_delete.status_code == 200:
 else:
     print(f"Pixel silinirken bir hata oluştu: {response_delete.text}")
 
-#Pixela adlı bir platformu kullanarak kişisel verilerinizi izlemek için bir "cycling graph" (bisiklet sürüşü grafiği) 
-#oluşturmayı ve bu grafiğe veri eklemeyi sağlar bu kod. Pixela, kullanıcıların günlük aktivitelerini (örneğin, yürüyüş, koşu, bisiklet sürme) takip etmelerini sağlayan bir platformdur.
