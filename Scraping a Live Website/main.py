@@ -19,3 +19,4 @@ article_upvotes = [score.getText() for score in soup.find_all(name="span", class
 print(article_texts)
 print(article_links)
 print(article_upvotes)
+print(article_upvotes[4])
