@@ -11,7 +11,7 @@ def spotify_login():
     return spotipy.Spotify(auth_manager=SpotifyOAuth(
         client_id=os.getenv("CLIENT_ID"),
         client_secret=os.getenv("CLIENT_SECRET"),
-        redirect_uri="http://127.0.0.1:8888/callback/",
+        redirect_uri="-",
         scope="playlist-modify-public",
         cache_path="token.txt"
     ))
