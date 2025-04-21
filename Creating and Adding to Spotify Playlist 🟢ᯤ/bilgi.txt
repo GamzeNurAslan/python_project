@@ -1,0 +1,1 @@
+https://developer.spotify.com/ sayfasından gerekli işlemleri yerine getirerek client_id ve client_secret numaralarını alabilirsin.
