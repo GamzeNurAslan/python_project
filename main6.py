@@ -60,4 +60,5 @@ with open("Methods.txt", "w") as f:
                 print(class_[i], end="")
                 print(" " * (30 - len(class_[i])), end="")
                 f.write(class_[i])
+
                 f.write(" " * (30 - len(class_[i])))
